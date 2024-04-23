@@ -1,0 +1,56 @@
+
+
+.main_hero { /*usa o display flex para colocar os elementos em coluna, é o container da main*/
+    margin-top: 37px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.hero-section { /*Aqui é para separar os conteudos da direita e esquerda*/
+    width: 80%;
+    margin: auto;
+    margin-bottom: 150px;
+
+}
+
+.main_rigth{
+    width: 0%;
+    display: none;
+}
+
+.main_left {
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+    .main_hero {
+        margin-bottom: 0px;
+    }
+    .hero-section {
+        display: flex;
+        justify-content: space-between;
+        gap: 4px;
+    }
+    .main_rigth {
+        display: block;
+        width: 45%;
+    }
+    .main_left {
+        width: 55%;
+    }
+}
+
+@media (min-width: 1381px) {
+
+    .main_left{ /*define o tamanho dos conteudos da esquerda e direita*/
+        width: 50%;
+    }
+    
+    .main_rigth {
+        width: 50%;
+    }
+
+    .main_hero {
+        margin-bottom: 0;
+    }
+}

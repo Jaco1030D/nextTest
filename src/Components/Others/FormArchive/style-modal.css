@@ -1,0 +1,999 @@
+.container-form {
+    height: 376px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .container-form .techdesolicitacao {
+    height: 376px;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  .container-form .upload {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #ccd6d7;
+    border-radius: 5px;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 326px;
+    width: 100%;
+  }
+.flex-correction-archive,
+  .flex-correction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .flex-correction-archive {
+    gap: 5px;
+  }
+  .flex-correction {
+    padding: 0px 15px;
+
+  }
+
+  .container-form .text-wrapper {
+    color: #40676a;
+    font-family: "attenBook", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 28px;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: 28px;
+    text-align: center;
+    top: 10px;
+    white-space: nowrap;
+    max-width: 90%;
+    overflow: clip;
+  }
+  
+  .container-form .img {
+    height: 15px;
+    left: 560px;
+    top: 17px;
+    width: 15px;
+  }
+  
+  .container-form .div {
+    color: #000000;
+    font-family: "attenMedium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    height: 23px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 22.9px;
+    position: absolute;
+    top: 299px;
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  .container-form .listadestino {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #ccd6d7;
+    border-radius: 5px;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 227px;
+    width: 100%;
+  }
+  
+  .container-form .text-wrapper-2 {
+    color: #40676a;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 28px;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    white-space: nowrap;
+  }
+  
+  .container-form .text-wrapper-3 {
+    color: #000000;
+    font-family: "attenMedium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    height: 23px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 22.9px;
+    position: absolute;
+    top: 199px;
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  .container-form .listaorigem {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #ccd6d7;
+    border-radius: 5px;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 137px;
+    width: 100%;
+  }
+  
+  .container-form .text-wrapper-4 {
+    color: #40676a;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 28px;
+    left: 13px;
+    display: flex;
+    gap: 10px;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    white-space: nowrap;
+  }
+  
+  .container-form .text-wrapper-5 {
+    color: #000000;
+    font-family: "attenMedium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    height: 23px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 22.9px;
+    position: absolute;
+    top: 101px;
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  .container-form .listaareas {
+    background-color: #ffffff;
+    border-radius: 4px;
+    height: 49px;
+    left: 0;
+    position: absolute;
+    top: 28px;
+    width: 100%;
+  }
+  
+  .container-form .overlap-group {
+    border-radius: 4px;
+    height: 50px;
+    position: relative;
+  }
+  
+  .container-form .button {
+    all: unset;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #ccd6d7;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 50px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .container-form .text-wrapper-6 {
+    color: #000000de;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 19px;
+    left: 9px;
+    letter-spacing: 0.15px;
+    line-height: 19px;
+    position: absolute;
+    top: 13px;
+    white-space: nowrap;
+    width: 166px;
+  }
+  
+  .container-form .frame {
+    height: 24px;
+    left: 541px;
+    position: absolute;
+    top: 13px;
+    width: 24px;
+  }
+  
+  .show-values_button {
+    position: absolute;
+    right: 0;
+    margin-top: 28px;
+    height: 58px;
+    width: 170px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: #C59318;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    font-family: 'attenMedium';
+    font-size: 16px;
+  }
+  .archivesTypes,
+.destinoidiomas { 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+  .destinoidiomas {
+    width: 71.61%;
+  }
+
+  .destinoidiomas .container-inputSelect {  /*container onde ficaram as linguagens para selecionar*/
+    height: 50%;
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header_language_languages_group { /*alinhar o texto com check*/
+    display: flex;
+    align-items: center;
+  }
+
+  .container-inputSelect .content-inputSelect { /*coloca o display grid para criar a tabela*/
+    height: 100%;
+    width: 80%;
+    margin-top: 52px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);/*divide a div em 5 partes iguais e depois quebra a linha*/
+    gap: 38px;
+  }
+
+  @media (max-width: 1400px) {
+    .destinoidiomas {
+      width: 80%;
+    }
+  }
+  @media (max-width: 1200px) {
+    .container-inputSelect .content-inputSelect {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .destinoidiomas{
+      width: 85%;
+    }
+  }
+  @media (max-width: 900px) {
+    .destinoidiomas {
+      width: 90%;
+    }
+
+    .container-inputSelect .content-inputSelect {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  /* @media (max-width: ) {
+    
+  } */
+  .languages_group { /*muda a fonte*/
+    font-family: 'attenBook';
+    z-index: 1;
+  }
+  .languages_group p { /*muda o tamanho da fonte*/
+    margin-left: 5px;
+    font-size: 14px;
+  }
+
+  .languages_group { /**/
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .languages_group div { /*todas as divs dentro de languages_group seram flex*/
+    display:flex;
+  }
+  .languages_group div.l { /*estiliza aquele detalhe em L do lado do tipo da linguagem*/
+    width: 10px;
+    height: 15px;
+    border-left: 2px solid #E9E9F2;
+    border-bottom: 2px solid #E9E9F2;
+  }
+
+  .languages_group .name-language { /*muda a cor e o tamanho da fonte do nome da linguagem*/
+    color: #40676A;
+    font-size: 16px;
+  }
+  .inputbusca input { /*estilizando o input */
+    width: 80%;
+    height: 19px;
+    font-family: 'attenBook';
+    font-size: 16px;
+    border: none;
+    outline: none;
+  }
+  /*anima fez a partir daqui*/
+  .destinoidiomas .div {
+    background-color: #ffffff;
+    height: 527.9px;
+    position: relative;
+    width: 100%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .destinoidiomas .botoes {
+    height: 80px;
+    left: 20px;
+    position: absolute;
+    top: 430px;
+    width: 100%;
+  }
+  
+  .destinoidiomas .botaoresetar {
+    border-radius: 4px;
+    height: 36px;
+    left: 16px;
+    position: absolute;
+    top: 22px;
+    width: 68px;
+  }
+
+  @media (max-width: 450px) {
+    .container-inputSelect .content-inputSelect {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .destinoidiomas .botoes {
+      left: 0px;
+    }
+  }
+  .destinoidiomas .text-wrapper {
+    color: #000000de;
+    font-family: "attenBook", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 24px;
+    left: 8px;
+    letter-spacing: 0;
+    line-height: 24.5px;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    white-space: nowrap;
+    width: 109px;
+  }
+  
+  .destinoidiomas .button {
+    background-color: #c59318;
+    border-radius: 25px;
+    height: 48px;
+    right: 5%;
+    position: absolute;
+    top: 16px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .destinoidiomas .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "attenMedium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    height: 28px;
+    left: 23px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+  }
+
+  .destinoidiomas .text-wrapper-2.drop {
+    left: 34px;
+  }
+  
+  .destinoidiomas .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Cambria Math-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 28px;
+    left: 106px;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    text-align: center;
+    top: 9px;
+    white-space: nowrap;
+    width: 19px;
+  }
+  
+  .destinoidiomas .overlap {
+    height: 100%;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+  }
+  
+  .destinoidiomas .escolhaidiomas {
+    background-color: #ffffff;
+    height: 296px;
+    left: 0;
+    position: absolute;
+    top: 114px;
+    width: 1060px;
+  }
+  
+  .destinoidiomas .label-arabic {
+    color: #094254;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 16px;
+    left: 127px;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: absolute;
+    top: 219px;
+    white-space: nowrap;
+    width: 105px;
+  }
+  
+  .destinoidiomas .label-arabic-2 {
+    color: #094254;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 16px;
+    left: 241px;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: absolute;
+    top: 219px;
+    white-space: nowrap;
+    width: 105px;
+  }
+  
+  .destinoidiomas .label-arabic-3 {
+    color: #094254;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 16px;
+    left: 413px;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: absolute;
+    top: 219px;
+    white-space: nowrap;
+    width: 105px;
+  }
+  
+  .destinoidiomas .label-arabic-4 {
+    color: #094254;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 16px;
+    left: 618px;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: absolute;
+    top: 219px;
+    white-space: nowrap;
+    width: 105px;
+  }
+  
+  .destinoidiomas .label-arabic-5 {
+    color: #094254;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 16px;
+    left: 786px;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: absolute;
+    top: 222px;
+    white-space: nowrap;
+  }
+  
+  .destinoidiomas .label-arabic-6 {
+    color: #094254;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 16px;
+    left: 127px;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: absolute;
+    top: 254px;
+    white-space: nowrap;
+    width: 105px;
+  }
+  
+  .destinoidiomas .label-arabic-7 {
+    color: #094254;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 16px;
+    left: 241px;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: absolute;
+    top: 254px;
+    white-space: nowrap;
+  }
+  
+  .destinoidiomas .label-arabic-8 {
+    color: #094254;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 16px;
+    left: 413px;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: absolute;
+    top: 254px;
+    white-space: nowrap;
+  }
+  
+  .destinoidiomas .label-arabic-9 {
+    color: #094254;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 16px;
+    left: 619px;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: absolute;
+    top: 254px;
+    white-space: nowrap;
+  }
+  
+  .destinoidiomas .label-arabic-10 {
+    color: #094254;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 16px;
+    left: 787px;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: absolute;
+    top: 254px;
+    white-space: nowrap;
+  }
+  
+  .destinoidiomas .frame {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 38px;
+    left: 127px;
+    position: absolute;
+    top: 67px;
+  }
+  
+  .destinoidiomas .escolhaportugues {
+    height: 72.88px;
+    position: relative;
+    width: 82.47px;
+  }
+  
+  .destinoidiomas .text-wrapper-4 {
+    color: #40676a;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 23px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 22.9px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 76px;
+  }
+  
+  .destinoidiomas .label {
+    border-bottom-style: solid;
+    border-bottom-width: 1.6px;
+    border-color: #e9e9f2;
+    border-left-style: solid;
+    border-left-width: 1.6px;
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 29px;
+    width: 10px;
+  }
+  
+  .destinoidiomas .label-brazil {
+    color: #000000;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 21px;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: 21px;
+    position: absolute;
+    top: 27px;
+    white-space: nowrap;
+    width: 32px;
+  }
+  
+  .destinoidiomas .label-2 {
+    border-bottom-style: solid;
+    border-bottom-width: 1.6px;
+    border-color: #e9e9f2;
+    border-left-style: solid;
+    border-left-width: 1.6px;
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 54px;
+    width: 10px;
+  }
+  
+  .destinoidiomas .label-portugal {
+    color: #000000;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 21px;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: 21px;
+    position: absolute;
+    top: 52px;
+    white-space: nowrap;
+    width: 49px;
+  }
+  
+  .destinoidiomas .escolhaingles {
+    height: 73.05px;
+    position: relative;
+    width: 140px;
+  }
+  
+  .destinoidiomas .text-wrapper-5 {
+    color: #40676a;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 23px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 22.9px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 59px;
+  }
+  
+  .destinoidiomas .label-3 {
+    border-bottom-style: solid;
+    border-bottom-width: 1.6px;
+    border-color: #e9e9f2;
+    border-left-style: solid;
+    border-left-width: 1.6px;
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 29px;
+    width: 8px;
+  }
+  
+  .destinoidiomas .label-norwegian {
+    color: #000000;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 21px;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: 21px;
+    position: absolute;
+    top: 27px;
+    white-space: nowrap;
+    width: 121px;
+  }
+  
+  .destinoidiomas .label-4 {
+    border-bottom-style: solid;
+    border-bottom-width: 1.6px;
+    border-color: #e9e9f2;
+    border-left-style: solid;
+    border-left-width: 1.6px;
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 54px;
+    width: 8px;
+  }
+  
+  .destinoidiomas .label-bokmal {
+    color: #000000;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 21px;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: 21px;
+    position: absolute;
+    top: 52px;
+    white-space: nowrap;
+    width: 66px;
+  }
+  
+  .destinoidiomas .escolhachines {
+    height: 98.05px;
+    position: relative;
+    width: 174.91px;
+  }
+  
+  .destinoidiomas .text-wrapper-6 {
+    color: #40676a;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 23px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 22.9px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 54px;
+  }
+  
+  .destinoidiomas .label-cantonese {
+    color: #000000;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 21px;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: 21px;
+    position: absolute;
+    top: 27px;
+    white-space: nowrap;
+    width: 84px;
+  }
+  
+  .destinoidiomas .label-simplified {
+    color: #000000;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 21px;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: 21px;
+    position: absolute;
+    top: 52px;
+    white-space: nowrap;
+    width: 152px;
+  }
+  
+  .destinoidiomas .label-5 {
+    border-bottom-style: solid;
+    border-bottom-width: 1.6px;
+    border-color: #e9e9f2;
+    border-left-style: solid;
+    border-left-width: 1.6px;
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 79px;
+    width: 10px;
+  }
+  
+  .destinoidiomas .label-traditional-HK {
+    color: #000000;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 21px;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: 21px;
+    position: absolute;
+    top: 77px;
+    white-space: nowrap;
+    width: 152px;
+  }
+  
+  .destinoidiomas .escolhaespanhol {
+    height: 73px;
+    position: relative;
+    width: 136px;
+  }
+  
+  .destinoidiomas .text-wrapper-7 {
+    color: #40676a;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 23px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 22.9px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 92px;
+  }
+  
+  .destinoidiomas .text-wrapper-8 {
+    color: #000000;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 21px;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: 21px;
+    position: absolute;
+    top: 27px;
+    white-space: nowrap;
+    width: 64px;
+  }
+  
+  .destinoidiomas .text-wrapper-9 {
+    color: #000000;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 21px;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: 21px;
+    position: absolute;
+    top: 52px;
+    white-space: nowrap;
+    width: 115px;
+  }
+  
+  .destinoidiomas .escolhaalemao {
+    height: 73px;
+    margin-right: -6px;
+    position: relative;
+    width: 136px;
+  }
+  
+  .destinoidiomas .busca {
+    height: 131px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: 20px;
+  }
+  
+  .destinoidiomas .frasehero {
+    color: #000000de;
+    font-family: "attenBook", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    height: 20px;
+    left: 20px;
+    letter-spacing: 0.15px;
+    line-height: 19.2px;
+    position: absolute;
+    top: 14px;
+    white-space: nowrap;
+  }
+  
+  .destinoidiomas .img {
+    height: 36px;
+    right: 8%;
+    position: absolute;
+    top: 7px;
+    width: 36px;
+  }
+  
+  .destinoidiomas .separator {
+    background-color: #0000001f;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 45px;
+    width: 95%;
+  }
+  
+  .destinoidiomas .separator-2 {
+    background-color: #0000001f;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 114px;
+    width: 95%;
+  }
+  
+  .destinoidiomas .overlap-group {
+    border-radius: 4px;
+    height: 48px;
+    left: 20px;
+    position: absolute;
+    top: 56px;
+    width: 100%;
+  }
+  
+  .destinoidiomas .frame-2 {
+    height: 24px;
+    left: 14px;
+    position: absolute;
+    top: 12px;
+    width: 24px;
+  }
+  
+  .destinoidiomas .inputbusca {
+    height: 19px;
+    left: 60px;
+    opacity: 0.42;
+    position: absolute;
+    top: 14px;
+    width: 70%;
+  }
+  
+  .destinoidiomas .text-wrapper-10 {
+    color: #000000de;
+    font-family: "Atten New-Book", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 19px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -1px;
+    width: 90px;
+  }
+  
+  .destinoidiomas .fieldset {
+    border: 1px solid;
+    border-color: #e9e9f2;
+    border-radius: 4px;
+    height: 48px;
+    left: 0;
+    top: 0;
+    width: 91%;
+  }
+  
+  @media (max-width: 500px) {
+    .destinoidiomas .frasehero,
+    .destinoidiomas .overlap-group {
+      left: 0;
+    }
+  }

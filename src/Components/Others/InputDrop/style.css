@@ -1,0 +1,28 @@
+.div .content-div { /*usado para estilizar o retangulo do meio */
+    border: 1px solid #000;
+    width: 80%;
+    height: 320px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    overflow-y: auto;
+  }
+.itens-div label,
+.content-div .itens-div { /*centralizar tudo que a dentro do retangulo, tanto a label como o proprio retangulo*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.itens-div label p{
+  padding: 10px;
+  text-align: center;
+}
+
+.inputDrop-text-button {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}

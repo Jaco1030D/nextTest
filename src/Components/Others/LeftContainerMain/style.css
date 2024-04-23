@@ -1,0 +1,27 @@
+.title_left_container { /*definir fonte e tamanho do titulo*/
+    font-size: 30.92px;
+}
+
+.main_left .texts_left { /*colocar em coluna os elementos*/
+    margin-bottom: 33px;
+}
+
+.title_left_container span { /*colocar cor na palavra online*/
+    color: #c8982A;
+}
+
+.texts_left h1 { /*colocar em coluna os textos dentro da div e dar um espaçamento*/
+    margin-bottom: 27px;
+}
+
+.texts_left .subtitle_left_container { /*diminuir a fonte para o subtitulo, a fonte é a mesma do titulo*/
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 31.46px; 
+    max-width: 511.72px;
+}
+
+.main_left {
+    position: relative;
+}

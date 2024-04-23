@@ -1,0 +1,71 @@
+.exampleTraduction_texts,
+.exampleTraduction-container
+ {
+    display: flex;
+    align-items: center;
+    font-family: 'Inter';
+    flex-direction: column;
+}
+
+.exampleTraduction_texts {
+    margin-top: 50px;
+    gap: 10px;
+    align-items: center;
+}
+.exampleTraduction-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.exampleTraduction-card {
+    width: 30%;
+    background-color: #fff;
+    padding: 40px 33px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    /* height: 200px; */
+}
+
+.exampleTraduction-card span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.exampleTraduction-card p {
+    font-size: 12.4px;
+    line-height: 23px;
+    color: #094254;
+}
+.exampleTraduction_texts h2 {
+    font-weight: 300;
+    line-height: 39px;
+    font-size: 28px;
+}
+
+.exampleTraduction_texts p {
+    max-width: 1000px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+
+.exampleTraduction-content {
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 500px) {
+    .exampleTraduction-card {
+        width: auto;
+    }
+    .exampleTraduction_texts {
+        padding: 20px;
+    }
+    .exampleTraduction_texts h2 {
+        text-align: center;
+    }
+}

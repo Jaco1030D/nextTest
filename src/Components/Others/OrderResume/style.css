@@ -1,0 +1,86 @@
+.checkout-rigth { /*estiliza o container da parte do resumo */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 19px;
+}
+.title-rigth-container { /*estiliza o titulo do container('Resumo do pedido') */
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.item-resume { /*Estiliza o texto das informações que aparecem na grade*/
+  font-family: 'attenBook';
+  font-size: 16px;
+}
+.total-item-resume,
+.title-item-resume { /*estiliza textos especiais da grade('Prazo', 'Dados', 'Expert'...)*/
+  font-family: 'attenBold';
+  font-size: 18px;
+}
+
+.total-item-resume { /*estiliza o texto 'TOTAL'*/
+  font-size: 16px;
+}
+.item-resume .language-item { /*estiliza o intem com o nome da linguagem*/
+  font-family: 'attenBold';
+  font-size: 14px;
+  padding: 6px 9px;
+  background-color: #f2f2f2;
+  border-radius: 18px;
+}
+
+.languages-resume,
+.data-documents,
+.deadline { /*as 3 grades que aparecem no lado direito*/
+    border: 2px solid #CCD6D7; /* Adicione uma borda para visualização */
+    overflow: hidden; /* Limpa a float para garantir que as divs se alinhem corretamente */
+  }
+
+  .content-checkout-rigth { /*ajusta as 3 grades para elas terem espaçamento entre si*/
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 19px;
+  }
+  .item-resume { /*estiliza cada um das linhas da grade*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 42px;
+    padding: 0 24px;
+    box-sizing: border-box; /* Inclui a borda e o padding no tamanho total */
+    border-bottom: 2px solid #CCD6D7; /* Adiciona uma borda inferior entre as divs */
+  }
+
+  
+  .item-resume:last-child { /* Remove a borda inferior da última div */
+    border-bottom: none;
+  }
+
+.btn-back { /*estiliza o botão de voltar 'retornar para etapa anterior'*/
+  width: 193px;
+  height: 28px;
+  border-radius: 18px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'attenBold';
+  align-self: flex-end;
+  margin-top: 50px;
+}
+
+@media (max-width: 700px) {
+  .checkout-rigth {
+    width: 80%;
+    margin-top: 20px;
+  }
+  .btn-back {
+    margin-top: 20px;
+  }
+  .content-checkout-rigth {
+    width: 100%;
+  }
+}

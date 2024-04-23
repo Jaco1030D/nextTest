@@ -1,0 +1,181 @@
+.container-test { /*container onde vão todos os retangulos/quadrados(num projeto, par de idiomas, tipo...) de um unico projeto*/
+    width: 900px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+  }
+
+  .small-rectangle { /*estiliza cada um dos retangulos do projeto*/
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .with-border { /*caso  tenha borda isso aqui sera adicionado juntamente com o small-rectangle*/
+    border: 1px solid #C59318;
+  }
+
+  /*o valor da largura de cada retagulo*/
+  .small-rectangle:nth-child(odd) { 
+    width: 95px;
+  }
+
+  .small-rectangle:nth-child(even) {
+    width: 135px;
+  }
+
+  .small-rectangle:nth-child(3) {
+    width: 109px;
+  }
+
+  .small-rectangle:nth-child(4) {
+    width: 113px;
+  }
+
+  .small-rectangle:nth-child(5) {
+    width: 114px;
+  }
+
+  .small-rectangle:nth-child(6) {
+    width: 108px;
+  }
+
+  .small-rectangle:nth-child(7) {
+    width: 148px;
+  }
+
+  .small-rectangle:nth-child(8) {
+    width: 82px;
+  }
+
+  .content-test { /*Estiliza a parte cinza do retangulo*/
+    height: 100%;
+    background-color: #E9E9F2;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+
+  .content-test span,
+  .typeService { /*estiliza a fonte bold dos retangulos('Premiun', 'EUR', textos na parte cinza)*/
+    font-size: 14px;
+    font-family: 'attenBold';
+  }
+
+  .numWords { /*cor do numero de palavras*/
+    color: #929292;
+  }
+  .white-part { /*estiliza parte branca dos retangulos*/
+    height: 100%;
+    position: relative;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+
+  .white-part span { /*estiliza o texto da parte branca*/
+    font-size: 14px;
+    font-family: 'attenBook';
+  }
+  
+  .dropdown { /*dropdown de download dos arquivos*/
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: flex;
+    top: 80%;
+    width: 200px;
+    flex-direction: column;
+    font-size: 14px;
+    z-index: 1;
+  }
+
+  .status-actual { /*estiliza o molde do status*/
+    font-family: 'attenBold';
+    font-size: 16px;
+    padding: 10px;
+    color: #fff;
+  }
+  .button-start{ /*estiliza o botão iniciar*/
+    display: flex;
+    width: 127px;
+    height: 37px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #C75049;
+    cursor: pointer;
+
+  }
+
+  .in-progress { /*quando o projeto esta em andamendo essa cor é aplicada no status*/
+    background-color: #FBC175;
+  }
+
+  .finalized { /*quando o projeto esta finalizado esso é aplicada no status*/
+    background-color: #1BFA07;
+    width: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dropdown div { /*estiliza as frases dentro do dropdown('Donwload de arquivos originais', 'Donwload de arquivos traduzidos')*/
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .dropdown div:hover { /*quando passa o mouse em cima das frases elas ficam com esse background-color*/
+    background-color: #e0e0e0;
+  }
+
+  .button-arquivos { /*estiliza o botão de download dos arquivos*/
+    width: 88px;
+    height: 25px;
+    background-color: #182b8a;
+    color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+
+  .div-order{
+    background-color: #ffffff;
+    height: 527.9px;
+    position: relative;
+    width: 1100px;
+    border-radius: 12px;
+  }
+
+  .container-inputSelect.order {
+    flex-direction: column;
+    align-items: start;
+    position: absolute;
+    left: 140px;
+    top: 103px;
+  }
+  .container-inputSelect.order .content-inputSelect {
+    margin-top: 26.12px;
+  }
+
+  .rectangle-icon {
+    display: flex;
+    gap: 9px;
+  }
+
+  .container-inputSelect.order p {
+    color: #40676A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22.88px;
+  }

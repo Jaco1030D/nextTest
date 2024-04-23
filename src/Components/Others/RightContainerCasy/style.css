@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+.main-rigth-container {
+    position: relative;
+}
+
+.rectngle-img-case-study {
+    width: 189px;
+    height: 227px;
+    background-color: #fff;
+    position: absolute;
+    left: 200px;
+    top: 112px;
+    padding-top: 59px;
+    padding-left: 13px;
+}
+
+.rectngle-img-case-study span {
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 33px;
+    font-size: 19.25px;
+}

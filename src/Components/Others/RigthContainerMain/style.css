@@ -1,0 +1,15 @@
+.main_rigth {
+    position: relative;
+    font-size: 15px;
+}
+
+.main_rigth_text {
+    position: absolute;
+    right: -35px;
+    top: 18%;
+    color: #fff;
+}
+
+.main_rigth_text a {
+    color: #fff;
+}

@@ -1,0 +1,32 @@
+.checkout-footer p {
+    position: relative;
+    display: flex;
+}
+
+.checkout-footer {
+    align-items: center;
+    border-top: 1px solid #d2d6d9;
+    color: #768092;
+    font-size: 14px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.checkout-footer sup {
+    font-size: 8px;
+    margin-right: 5px;
+}
+
+.checkout-footer #terms-link {
+    color: blue;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+@media (max-width: 700px) {
+    .checkout-footer p {
+        font-size: 8px;
+    }
+}

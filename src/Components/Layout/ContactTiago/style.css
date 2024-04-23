@@ -1,0 +1,60 @@
+.contactTiago-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contactTiago-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+    padding: 20px;
+}
+
+.contactTiago_button {
+    font-family: 'attenMedium';
+    border: none;
+    font-size: 16px;
+    position: relative;
+    right: 15px;
+    bottom: 0;
+    width: 150px;
+    height: 50px;
+    border-radius: 21px;
+    background-color: #1829C5;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contactTiago_button a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+.contactTiago_texts {
+    max-width: 80%;
+}
+.contactTiago_texts span{
+    font-family: 'attenBold';
+    font-size: 22px;
+}
+
+.contactTiago_texts p {
+    font-family: 'attenBook';
+    font-size: 16px;
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    max-width: 360px;
+}
+
+@media (min-width: 500px) {  
+    .contactTiago-content {
+        flex-direction: row;
+        padding: 0;
+    }
+    .contactTiago_button {
+        position: absolute;
+    }
+}
