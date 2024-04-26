@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'atten';
+    src: url('./atten-new/AttenNewRegular.otf')  format('opentype');
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: 'attenBook';
+    src: url('./atten-new/AttenNewBook.otf')  format('opentype');
+    font-weight: book;
+  }
+  
+  @font-face {
+    font-family: 'attenMedium';
+    src: url('./atten-new/AttenNewMedium.otf')  format('opentype');
+    font-weight: medium;
+  }
+  @font-face {
+    font-family: 'attenRegular';
+    src: url('./atten-new/AttenNewRegular.otf')  format('opentype');
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: 'attenExtraBold';
+    src: url('./atten-new/AttenNewExtraBold.otf');
+    font-weight: bolder;
+  }
+  
+  @font-face {
+    font-family: 'attenBold';
+    src: url('./atten-new/AttenNewBold.otf');
+    font-weight: bold;
+  }
+
+/*---------------------------------------------------------------Navbar--------------------------------------------------------*/
+
+.heroSection nav {
+    background-color: #fff;
+    height: 66.4px;
+    display: flex;
+    align-items: center;
+    font-family: 'atten';
+    justify-content: center;
+}
+nav > div {
+    width: 78.47%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.items-navbar {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+.items-navbar p,
+.items-navbar span {
+    /* border: 1px solid green; */
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.items-navbar span#blue {
+    background-color: #1B23EF;
+    width: 128px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.items-navbar span#contact {
+    border: 1px solid #cbc5c5;
+    height: 30px;
+    width: 92px;
+    border-radius: 5px;
+}
+
+/*-----------------------------------------------------------------Hero section----------------------------------------------------*/
+.main {
+    background: linear-gradient(180.06deg, #FDFDFF 9.46%, #E1E4FF 70.35%, #FFFFFF 89.38%);
+    height: 798px;
+    position: relative;
+}
+
+.main-content {
+    padding-top: 141.6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-p {
+    position: absolute;
+    left: 10.61%;
+    top: 83.6px;
+}
+
+.img-s {
+    position: absolute;
+    top: 379.6px;
+    right: 9.44%;
+}
+
+.img-e {
+    position: absolute;
+    top: 232.6px;
+}
+
+.main-content h1 {
+    font-family: 'attenExtraBold';
+    font-size: 80px;
+    letter-spacing: 0.29px;
+    line-height: 99px;
+    text-align: center;
+}
+
+.main-content h1 span {
+    color: #c59318;
+}
+
+.main-content > p {
+    margin-top: 40px;
+    margin-bottom: 72.56px;
+    max-width: 659px;
+    font-family: 'attenMedium';
+    line-height: 160.6%;
+    font-size: 18.9px;
+    text-align: center;
+}
+
+.main-content .buttons {
+    display: flex;
+    gap: 26.7px;
+}
+
+.main-content .buttons .button {
+    width: 231.7px;
+    height: 56.88px;
+    color: #fff;
+    border: none;
+    border-radius: 6.69px;
+    font-family: 'attenBold';
+    font-size: 15.06px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 13.38px;
+}
+
+.main-content .buttons .button p {
+    position: absolute;
+}
+
+.main-content .buttons .button.btn-secondery p {
+    left: 31.93px;
+}
+.main-content .buttons .button.btn-first p {
+    left: 13.38px;
+}
+
+.btn-secondery {
+    background-color: #000;
+}
+
+.btn-first {
+    background-color: #c59318;
+    /* display: flex; */
+}
+
+.frame-green {
+    width: 40.15px;
+    height: 43.5px;
+    background-color: #60E4A5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3.36px;
+    position: absolute;
+    right: 3%;
+}
